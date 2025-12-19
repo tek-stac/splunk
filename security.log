@@ -1,0 +1,64 @@
+2025-12-18 09:00:01 INFO user=john action=login status=success ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:01:12 INFO user=alice action=login status=failed ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:01:45 INFO user=alice action=login status=failed ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:02:20 INFO user=alice action=login status=failed ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:03:10 INFO user=mark action=login status=success ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:04:05 WARN user=john action=access_file file=/etc/passwd ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:05:30 INFO user=john action=logout status=success ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:06:00 ERROR user=unknown action=login status=failed ip=10.10.10.5 device=unknown location=RU
+2025-12-18 09:06:40 ERROR user=unknown action=login status=failed ip=10.10.10.5 device=unknown location=RU
+2025-12-18 09:07:15 ERROR user=unknown action=login status=failed ip=10.10.10.5 device=unknown location=RU
+2025-12-18 09:08:10 INFO user=mark action=access_file file=/var/log/auth.log ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:09:00 WARN user=alice action=password_change status=failed ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:10:30 INFO user=alice action=login status=success ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:11:45 INFO user=admin action=login status=success ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:12:30 WARN user=admin action=access_file file=/secure/db_backup.sql ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:13:10 INFO user=admin action=modify_user target=john status=success ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:14:22 INFO user=mark action=logout status=success ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:15:05 ERROR user=unknown action=login status=failed ip=185.143.22.9 device=unknown location=CN
+2025-12-18 09:15:48 WARN user=alice action=access_file file=/home/alice/private.doc ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:16:30 INFO user=jane action=login status=success ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:17:12 INFO user=jane action=access_file file=/shared/reports/q4_summary.pdf ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:18:01 ERROR user=unknown action=login status=failed ip=203.0.113.45 device=unknown location=BR
+2025-12-18 09:18:44 INFO user=devops action=login status=success ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:19:30 WARN user=devops action=execute_command cmd=sudo rm -rf /tmp/* ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:20:15 INFO user=jane action=logout status=success ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:21:00 ERROR user=unknown action=login status=failed ip=91.234.56.78 device=unknown location=RU
+2025-12-18 09:21:45 INFO user=alice action=access_file file=/shared/calendar_events.ics ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:22:30 INFO user=admin action=backup_start target=/var/www/html ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:23:15 INFO user=admin action=backup_complete status=success ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:24:02 WARN user=unknown action=port_scan status=detected ip=45.67.89.12 device=unknown location=IR
+2025-12-18 09:24:55 INFO user=john action=login status=success ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:25:40 INFO user=john action=access_file file=/docs/project_plan_v3.docx ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:26:20 ERROR user=unknown action=login status=failed ip=104.28.42.199 device=unknown location=TR
+2025-12-18 09:27:05 INFO user=mark action=login status=success ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:27:50 WARN user=mark action=download_file file=/reports/sensitive_data.xlsx size=24MB ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:28:35 INFO user=alice action=password_change status=success ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:29:20 ERROR user=unknown action=login status=failed ip=198.51.100.77 device=unknown location=KP
+2025-12-18 09:30:00 INFO user=system action=auto_update status=started ip=127.0.0.1 device=server01 location=IN
+2025-12-18 09:30:45 INFO user=system action=auto_update status=completed ip=127.0.0.1 device=server01 location=IN
+2025-12-18 09:31:30 WARN user=admin action=firewall_rule_change rule=block_10.10.10.0/24 ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:32:15 INFO user=devops action=deploy_app app=auth-service version=2.3.1 ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:33:00 INFO user=devops action=deploy_status status=success ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:33:45 ERROR user=unknown action=login status=failed ip=192.0.2.189 device=unknown location=VN
+2025-12-18 09:34:30 INFO user=john action=logout status=success ip=192.168.1.10 device=laptop01 location=IN
+2025-12-18 09:35:10 INFO user=alice action=logout status=success ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:36:00 INFO user=mark action=access_file file=/shared/financials/2025_budget.xlsx ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:36:45 WARN user=mark action=email_attachment file=2025_budget.xlsx recipient=external@partner.com ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:37:30 INFO user=admin action=user_lockout user=unknown attempts=5 ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:38:15 ERROR user=unknown action=login status=failed ip=203.0.113.100 device=unknown location=CN
+2025-12-18 09:39:00 INFO user=jane action=login status=success ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:39:45 INFO user=jane action=access_file file=/shared/meeting_notes.txt ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:40:30 WARN user=jane action=usb_connect device=SanDisk_32GB serial=SD123456 ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:41:15 INFO user=devops action=login status=success ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:42:00 INFO user=devops action=access_file file=/configs/nginx.conf ip=172.16.0.10 device=workstation01 location=IN
+2025-12-18 09:42:45 ERROR user=unknown action=login status=failed ip=94.130.112.33 device=unknown location=DE
+2025-12-18 09:43:30 INFO user=admin action=login status=success ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:44:15 WARN user=admin action=config_change file=/etc/ssh/sshd_config ip=172.16.0.5 device=server01 location=IN
+2025-12-18 09:45:00 INFO user=mark action=logout status=success ip=192.168.1.30 device=desktop01 location=US
+2025-12-18 09:45:45 ERROR user=unknown action=login status=failed ip=198.51.100.200 device=unknown location=RU
+2025-12-18 09:46:30 INFO user=jane action=logout status=success ip=192.168.1.40 device=laptop03 location=UK
+2025-12-18 09:47:15 INFO user=alice action=login status=success ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:48:00 INFO user=alice action=access_file file=/docs/resume_final.pdf ip=192.168.1.20 device=laptop02 location=IN
+2025-12-18 09:48:45 WARN user=system action=disk_usage level=85% path=/var ip=127.0.0.1 device=server01 location=IN
+2025-12-18 09:49:30 INFO user=admin action=cleanup_logs status=completed ip=172.16.0.5 device=server01 location=IN
