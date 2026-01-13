@@ -1,0 +1,80 @@
+2025-01-08 09:00:01 INFO  db=mysql-prod-01 user=app_user action=LOGIN status=SUCCESS ip=10.10.1.21
+2025-01-08 09:00:05 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=120ms rows=45 query="SELECT * FROM customers WHERE country='IN'"
+2025-01-08 09:00:10 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=2850ms rows=120000 query="SELECT * FROM orders"
+2025-01-08 09:00:15 ERROR db=mysql-prod-01 user=app_user action=QUERY error=SYNTAX_ERROR query="SELEC name FROM users"
+2025-01-08 09:00:20 INFO  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=TABLE table=payments operation=ALTER add_column=payment_status
+2025-01-08 09:00:25 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=5100ms rows=980000 query="SELECT * FROM transactions WHERE created_date < '2024-01-01'"
+2025-01-08 09:00:30 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=90ms rows=1 query="SELECT balance FROM accounts WHERE account_id=90021"
+2025-01-08 09:00:35 ERROR db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=INVALID_PASSWORD ip=203.0.113.45
+2025-01-08 09:00:40 WARN  db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=INVALID_PASSWORD ip=203.0.113.45
+2025-01-08 09:00:45 ERROR db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=ACCOUNT_LOCKED ip=203.0.113.45
+2025-01-08 09:00:50 INFO  db=mysql-prod-01 user=admin action=PRIVILEGE_CHANGE target_user=report_user privilege=SELECT status=GRANTED
+2025-01-08 09:00:55 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=6700ms rows=1500000 query="SELECT * FROM audit_logs"
+2025-01-08 09:01:00 ERROR db=mysql-prod-01 user=app_user action=QUERY error=DEADLOCK_DETECTED query="UPDATE inventory SET stock=stock-1 WHERE product_id=501"
+2025-01-08 09:01:05 INFO  db=mysql-prod-01 user=dba_user action=PRIVILEGE_CHANGE target_user=app_user privilege=DROP status=REVOKED
+2025-01-08 09:01:10 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=STARTED
+2025-01-08 09:01:35 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=COMPLETED duration=25s
+2025-01-08 09:01:40 WARN  db=mysql-prod-01 user=admin action=QUERY executionTime=8200ms rows=2000000 query="DELETE FROM logs WHERE created_date < '2023-01-01'"
+2025-01-08 09:01:45 ERROR db=mysql-prod-01 user=app_user action=QUERY error=PERMISSION_DENIED query="DROP TABLE users"
+2025-01-08 09:01:50 INFO  db=mysql-prod-01 user=system action=CONNECTION_POOL active=95 max=100 status=WARNING
+2025-01-08 09:01:55 INFO  db=mysql-prod-01 user=system action=CONNECTION_POOL active=60 max=100 status=NORMAL
+2025-01-08 09:02:00 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=110ms rows=3 query="SELECT role FROM users WHERE user_id=1201"
+2025-01-08 09:02:05 WARN  db=mysql-prod-01 user=analytics_user action=QUERY executionTime=4600ms rows=780000 query="SELECT * FROM user_events WHERE event_date >= '2024-01-01'"
+2025-01-08 09:02:10 ERROR db=mysql-prod-01 user=app_user action=QUERY error=TIMEOUT query="SELECT * FROM products JOIN reviews ON products.id=reviews.pid"
+2025-01-08 09:02:15 INFO  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=INDEX table=orders operation=CREATE index=idx_order_date
+2025-01-08 09:02:20 WARN  db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=INVALID_USER ip=45.77.89.23
+2025-01-08 09:02:25 INFO  db=mysql-prod-01 user=admin action=PRIVILEGE_CHANGE target_user=analytics_user privilege=SELECT status=REVOKED
+2025-01-08 09:02:30 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=70ms rows=1 query="SELECT COUNT(*) FROM sessions WHERE active=1"
+2025-01-08 09:02:35 ERROR db=mysql-prod-01 user=report_user action=QUERY error=OUT_OF_MEMORY query="SELECT * FROM historical_transactions"
+2025-01-08 09:02:40 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=7200ms rows=1900000 query="SELECT * FROM payments_archive"
+2025-01-08 09:02:45 INFO  db=mysql-prod-01 user=system action=REPLICATION status=DELAYED lag=15s
+2025-01-08 09:02:50 INFO  db=mysql-prod-01 user=system action=REPLICATION status=NORMAL lag=0s
+2025-01-08 09:02:55 ERROR db=mysql-prod-01 user=app_user action=QUERY error=FOREIGN_KEY_VIOLATION query="INSERT INTO orders VALUES (9001,9999)"
+2025-01-08 09:03:00 INFO  db=mysql-prod-01 user=admin action=QUERY executionTime=140ms rows=12 query="SHOW GRANTS FOR 'report_user'"
+2025-01-08 09:03:05 WARN  db=mysql-prod-01 user=admin action=SCHEMA_CHANGE object=TABLE table=users operation=DROP column=temp_flag
+2025-01-08 09:03:10 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=FAILED error=DISK_FULL
+2025-01-08 09:03:15 INFO  db=mysql-prod-01 user=system action=DISK_CLEANUP freedSpace=8GB
+2025-01-08 09:03:20 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=RETRY_STARTED
+2025-01-08 09:03:45 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=COMPLETED duration=22s
+2025-01-08 09:03:50 WARN  db=mysql-prod-01 user=security_user action=QUERY executionTime=5400ms rows=400000 query="SELECT * FROM audit_trail"
+2025-01-08 09:03:55 ERROR db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=IP_BLOCKED ip=45.77.89.23
+2025-01-08 09:04:00 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=95ms rows=2 query="SELECT status FROM orders WHERE order_id=10021"
+2025-01-08 09:04:05 WARN  db=mysql-prod-01 user=analytics_user action=QUERY executionTime=4100ms rows=650000 query="SELECT * FROM page_views WHERE view_date='2024-12-01'"
+2025-01-08 09:04:10 ERROR db=mysql-prod-01 user=app_user action=QUERY error=TABLE_NOT_FOUND query="SELECT * FROM old_orders"
+2025-01-08 09:04:15 INFO  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=TABLE table=customers operation=ALTER add_column=last_login
+2025-01-08 09:04:20 WARN  db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=INVALID_PASSWORD ip=89.45.23.11
+2025-01-08 09:04:25 INFO  db=mysql-prod-01 user=admin action=PRIVILEGE_CHANGE target_user=app_user privilege=UPDATE status=GRANTED
+2025-01-08 09:04:30 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=60ms rows=1 query="UPDATE users SET last_login=NOW() WHERE user_id=1001"
+2025-01-08 09:04:35 ERROR db=mysql-prod-01 user=report_user action=QUERY error=LOCK_WAIT_TIMEOUT query="UPDATE reports SET status='READY'"
+2025-01-08 09:04:40 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=7600ms rows=2100000 query="SELECT * FROM usage_metrics"
+2025-01-08 09:04:45 INFO  db=mysql-prod-01 user=system action=REPLICATION status=DELAYED lag=22s
+2025-01-08 09:04:50 INFO  db=mysql-prod-01 user=system action=REPLICATION status=NORMAL lag=1s
+2025-01-08 09:04:55 ERROR db=mysql-prod-01 user=app_user action=QUERY error=DATA_TOO_LONG query="INSERT INTO logs(message) VALUES('...')"
+2025-01-08 09:05:00 INFO  db=mysql-prod-01 user=admin action=QUERY executionTime=130ms rows=8 query="SHOW PROCESSLIST"
+2025-01-08 09:05:05 WARN  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=INDEX table=customers operation=DROP index=idx_old_email
+2025-01-08 09:05:10 ERROR db=mysql-prod-01 user=backup_user action=BACKUP status=FAILED error=PERMISSION_DENIED
+2025-01-08 09:05:15 INFO  db=mysql-prod-01 user=admin action=PRIVILEGE_CHANGE target_user=backup_user privilege=LOCK_TABLES status=GRANTED
+2025-01-08 09:05:20 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=RETRY_STARTED
+2025-01-08 09:05:45 INFO  db=mysql-prod-01 user=backup_user action=BACKUP status=COMPLETED duration=24s
+2025-01-08 09:05:50 WARN  db=mysql-prod-01 user=security_user action=QUERY executionTime=5800ms rows=500000 query="SELECT * FROM login_attempts"
+2025-01-08 09:05:55 ERROR db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=ACCOUNT_LOCKED ip=89.45.23.11
+2025-01-08 09:06:00 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=85ms rows=1 query="SELECT email FROM users WHERE user_id=1102"
+2025-01-08 09:06:05 WARN  db=mysql-prod-01 user=analytics_user action=QUERY executionTime=6900ms rows=1800000 query="SELECT * FROM order_history"
+2025-01-08 09:06:10 ERROR db=mysql-prod-01 user=app_user action=QUERY error=DUPLICATE_ENTRY query="INSERT INTO users VALUES(1102,'test')"
+2025-01-08 09:06:15 INFO  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=TABLE table=logs operation=ALTER add_column=source_ip
+2025-01-08 09:06:20 WARN  db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=INVALID_USER ip=190.12.45.77
+2025-01-08 09:06:25 INFO  db=mysql-prod-01 user=admin action=PRIVILEGE_CHANGE target_user=analytics_user privilege=SELECT status=GRANTED
+2025-01-08 09:06:30 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=55ms rows=1 query="DELETE FROM sessions WHERE expired=1"
+2025-01-08 09:06:35 ERROR db=mysql-prod-01 user=report_user action=QUERY error=SYNTAX_ERROR query="SELEC * FROM users"
+2025-01-08 09:06:40 WARN  db=mysql-prod-01 user=report_user action=QUERY executionTime=8300ms rows=2300000 query="SELECT * FROM access_logs"
+2025-01-08 09:06:45 INFO  db=mysql-prod-01 user=system action=CONNECTION_POOL active=98 max=100 status=CRITICAL
+2025-01-08 09:06:50 INFO  db=mysql-prod-01 user=system action=CONNECTION_POOL active=72 max=100 status=RECOVERED
+2025-01-08 09:06:55 ERROR db=mysql-prod-01 user=app_user action=QUERY error=READ_ONLY query="UPDATE inventory SET stock=10"
+2025-01-08 09:07:00 INFO  db=mysql-prod-01 user=admin action=QUERY executionTime=150ms rows=10 query="SHOW VARIABLES LIKE 'read_only'"
+2025-01-08 09:07:05 WARN  db=mysql-prod-01 user=dba_user action=SCHEMA_CHANGE object=TABLE table=sessions operation=TRUNCATE
+2025-01-08 09:07:10 INFO  db=mysql-prod-01 user=system action=FAILOVER status=STARTED new_primary=mysql-prod-02
+2025-01-08 09:07:35 INFO  db=mysql-prod-01 user=system action=FAILOVER status=COMPLETED
+2025-01-08 09:07:40 WARN  db=mysql-prod-01 user=security_user action=QUERY executionTime=6200ms rows=410000 query="SELECT * FROM privilege_audit"
+2025-01-08 09:07:45 ERROR db=mysql-prod-01 user=unknown action=LOGIN status=FAILED reason=IP_BLOCKED ip=190.12.45.77
+2025-01-08 09:07:50 INFO  db=mysql-prod-01 user=app_user action=QUERY executionTime=75ms rows=1 query="SELECT NOW()"
+2025-01-08 09:07:55 INFO  db=mysql-prod-01 user=system action=HEALTH_CHECK status=OK
