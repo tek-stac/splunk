@@ -1,0 +1,139 @@
+2024-03-16T08:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="88" bp_sys="130" bp_dia="80" map="97" spo2="98" resp="16" temp="36.8" etco2="38" news="2" trend="STABLE"
+2024-03-16T08:00:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="72" bp_sys="120" bp_dia="80" map="93" spo2="98" resp="14" temp="36.9" etco2="36" news="1" trend="STABLE"
+2024-03-16T08:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="68" bp_sys="118" bp_dia="76" map="90" spo2="96" resp="18" temp="37.2" etco2="40" news="3" trend="STABLE"
+2024-03-16T08:00:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="92" bp_sys="145" bp_dia="95" map="112" spo2="97" resp="20" temp="37.0" etco2="42" news="4" trend="HYPERTENSIVE"
+
+2024-03-16T08:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="92" bp_sys="128" bp_dia="78" map="95" spo2="97" resp="18" temp="37.1" etco2="36" news="2" trend="STABLE"
+2024-03-16T08:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="68" bp_sys="118" bp_dia="78" map="91" spo2="98" resp="12" temp="36.8" etco2="34" news="1" trend="STABLE"
+2024-03-16T08:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="72" bp_sys="124" bp_dia="80" map="95" spo2="97" resp="16" temp="37.4" etco2="38" news="3" trend="IMPROVING"
+2024-03-16T08:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="88" bp_sys="138" bp_dia="92" map="107" spo2="97" resp="18" temp="37.1" etco2="40" news="3" trend="IMPROVING"
+
+2024-03-16T08:30:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="96" bp_sys="124" bp_dia="76" map="92" spo2="96" resp="20" temp="37.4" etco2="34" news="3" trend="DETERIORATING"
+2024-03-16T08:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="64" bp_sys="116" bp_dia="76" map="89" spo2="97" resp="10" temp="36.7" etco2="32" news="2" trend="BRADYCARDIC"
+2024-03-16T08:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="76" bp_sys="130" bp_dia="82" map="98" spo2="98" resp="14" temp="37.6" etco2="36" news="2" trend="STABLE"
+2024-03-16T08:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="84" bp_sys="132" bp_dia="88" map="103" spo2="98" resp="16" temp="37.2" etco2="38" news="2" trend="IMPROVING"
+
+2024-03-16T08:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="102" bp_sys="118" bp_dia="72" map="87" spo2="95" resp="22" temp="37.8" etco2="32" news="4" trend="DETERIORATING"
+2024-03-16T08:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="58" bp_sys="114" bp_dia="74" map="87" spo2="97" resp="8" temp="36.6" etco2="30" news="3" trend="BRADYCARDIC"
+2024-03-16T08:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="80" bp_sys="135" bp_dia="85" map="102" spo2="99" resp="12" temp="37.8" etco2="34" news="3" trend="STABLE"
+2024-03-16T08:45:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="80" bp_sys="128" bp_dia="84" map="99" spo2="99" resp="14" temp="37.3" etco2="36" news="1" trend="STABLE"
+
+2024-03-16T09:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="108" bp_sys="112" bp_dia="68" map="83" spo2="94" resp="24" temp="38.1" etco2="30" news="6" trend="DETERIORATING"
+2024-03-16T09:00:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="52" bp_sys="112" bp_dia="72" map="85" spo2="96" resp="6" temp="36.5" etco2="28" news="4" trend="SEVERE_BRADYCARDIA"
+2024-03-16T09:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="84" bp_sys="140" bp_dia="88" map="105" spo2="99" resp="10" temp="38.0" etco2="32" news="4" trend="HYPERTENSIVE"
+2024-03-16T09:00:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="76" bp_sys="124" bp_dia="80" map="95" spo2="99" resp="12" temp="37.4" etco2="34" news="1" trend="STABLE"
+
+2024-03-16T09:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="112" bp_sys="108" bp_dia="66" map="80" spo2="93" resp="26" temp="38.3" etco2="28" news="7" trend="DETERIORATING"
+2024-03-16T09:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="46" bp_sys="110" bp_dia="70" map="83" spo2="96" resp="6" temp="36.4" etco2="26" news="5" trend="SEVERE_BRADYCARDIA"
+2024-03-16T09:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="88" bp_sys="145" bp_dia="92" map="110" spo2="98" resp="8" temp="38.2" etco2="30" news="5" trend="HYPERTENSIVE"
+2024-03-16T09:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="72" bp_sys="120" bp_dia="78" map="92" spo2="99" resp="10" temp="37.5" etco2="32" news="1" trend="STABLE"
+
+2024-03-16T09:30:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="116" bp_sys="102" bp_dia="62" map="75" spo2="92" resp="28" temp="38.5" etco2="26" news="8" trend="CRITICAL_DOWN"
+2024-03-16T09:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="42" bp_sys="108" bp_dia="68" map="81" spo2="95" resp="6" temp="36.4" etco2="24" news="6" trend="SEVERE_BRADYCARDIA"
+2024-03-16T09:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="92" bp_sys="150" bp_dia="95" map="113" spo2="97" resp="6" temp="38.4" etco2="28" news="6" trend="HYPERTENSIVE_CRISIS"
+2024-03-16T09:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="68" bp_sys="116" bp_dia="76" map="89" spo2="98" resp="8" temp="37.6" etco2="30" news="2" trend="STABLE"
+
+2024-03-16T09:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="118" bp_sys="98" bp_dia="58" map="71" spo2="91" resp="30" temp="38.7" etco2="24" news="9" trend="CRITICAL_DOWN"
+2024-03-16T09:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="38" bp_sys="106" bp_dia="66" map="79" spo2="94" resp="4" temp="36.3" etco2="22" news="7" trend="CARDIAC_ALERT"
+2024-03-16T09:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="96" bp_sys="155" bp_dia="98" map="117" spo2="96" resp="4" temp="38.6" etco2="26" news="7" trend="HYPERTENSIVE_EMERGENCY"
+2024-03-16T09:45:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="64" bp_sys="112" bp_dia="74" map="87" spo2="97" resp="6" temp="37.7" etco2="28" news="3" trend="STABLE"
+
+2024-03-16T10:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="122" bp_sys="94" bp_dia="56" map="69" spo2="90" resp="32" temp="38.9" etco2="22" news="10" trend="CRITICAL_DOWN"
+2024-03-16T10:00:00.000Z ALERT patient="P-55671" bed="ICU_BED_2" hr="34" bp_sys="102" bp_dia="64" map="77" spo2="93" resp="4" temp="36.2" etco2="20" alert="BRADYCARDIA_CRITICAL" intervention="ATROPINE_0.5MG"
+2024-03-16T10:00:00.000Z ALERT patient="P-98234" bed="ICU_BED_3" hr="100" bp_sys="160" bp_dia="100" map="120" spo2="95" resp="4" temp="38.8" etco2="24" alert="HYPERTENSIVE_EMERGENCY" intervention="NITROGLYCERIN_IV"
+2024-03-16T10:00:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="60" bp_sys="108" bp_dia="72" map="84" spo2="96" resp="4" temp="37.8" etco2="26" news="4" trend="BRADYCARDIC"
+
+2024-03-16T10:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="124" bp_sys="88" bp_dia="54" map="65" spo2="89" resp="34" temp="39.0" etco2="20" news="10" trend="CRITICAL_DOWN"
+2024-03-16T10:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="48" bp_sys="112" bp_dia="70" map="84" spo2="96" resp="8" temp="36.5" etco2="28" news="4" trend="RESPONDING"
+2024-03-16T10:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="96" bp_sys="148" bp_dia="94" map="112" spo2="96" resp="6" temp="38.7" etco2="30" news="6" trend="RESPONDING"
+2024-03-16T10:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="56" bp_sys="104" bp_dia="70" map="81" spo2="95" resp="4" temp="37.9" etco2="24" news="5" trend="DETERIORATING"
+
+2024-03-16T10:30:00.000Z ALERT patient="P-33456" bed="ICU_BED_1" hr="126" bp_sys="84" bp_dia="52" map="63" spo2="88" resp="36" temp="39.1" etco2="18" alert="SEPSIS_ALERT" intervention="VANCOMYCIN_1G"
+2024-03-16T10:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="52" bp_sys="116" bp_dia="72" map="87" spo2="97" resp="10" temp="36.6" etco2="30" news="3" trend="IMPROVING"
+2024-03-16T10:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="92" bp_sys="142" bp_dia="90" map="107" spo2="97" resp="8" temp="38.6" etco2="32" news="5" trend="IMPROVING"
+2024-03-16T10:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="52" bp_sys="100" bp_dia="68" map="79" spo2="94" resp="4" temp="38.0" etco2="22" news="6" trend="DETERIORATING"
+
+2024-03-16T10:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="128" bp_sys="82" bp_dia="50" map="61" spo2="87" resp="38" temp="39.2" etco2="16" news="10" trend="CRITICAL_DOWN"
+2024-03-16T10:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="56" bp_sys="118" bp_dia="74" map="89" spo2="98" resp="12" temp="36.7" etco2="32" news="2" trend="IMPROVING"
+2024-03-16T10:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="88" bp_sys="138" bp_dia="88" map="105" spo2="98" resp="10" temp="38.5" etco2="34" news="4" trend="IMPROVING"
+2024-03-16T10:45:00.000Z ALERT patient="P-12905" bed="ICU_BED_4" hr="48" bp_sys="96" bp_dia="66" map="76" spo2="93" resp="4" temp="38.1" etco2="20" alert="BRADYCARDIA_WITH_HYPOTENSION"
+
+2024-03-16T11:00:00.000Z CRITICAL patient="P-33456" bed="ICU_BED_1" hr="130" bp_sys="78" bp_dia="48" map="58" spo2="86" resp="40" temp="39.3" etco2="14" alert="SEPTIC_SHOCK" intervention="INTUBATION_STARTED"
+2024-03-16T11:00:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="60" bp_sys="120" bp_dia="76" map="91" spo2="98" resp="14" temp="36.8" etco2="34" news="2" trend="STABLE"
+2024-03-16T11:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="84" bp_sys="135" bp_dia="85" map="102" spo2="99" resp="12" temp="38.4" etco2="36" news="3" trend="STABLE"
+2024-03-16T11:00:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="44" bp_sys="92" bp_dia="64" map="73" spo2="92" resp="4" temp="38.2" etco2="18" news="7" trend="CRITICAL_DOWN"
+
+2024-03-16T11:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="132" bp_sys="76" bp_dia="46" map="56" spo2="85" resp="42" temp="39.4" etco2="12" news="10" trend="CRITICAL_DOWN"
+2024-03-16T11:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="64" bp_sys="122" bp_dia="78" map="93" spo2="99" resp="16" temp="36.9" etco2="36" news="2" trend="STABLE"
+2024-03-16T11:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="80" bp_sys="132" bp_dia="82" map="99" spo2="99" resp="14" temp="38.3" etco2="38" news="2" trend="STABLE"
+2024-03-16T11:15:00.000Z CRITICAL patient="P-12905" bed="ICU_BED_4" hr="40" bp_sys="88" bp_dia="62" map="71" spo2="91" resp="4" temp="38.3" etco2="16" alert="CARDIAC_ARREST_IMMINENT"
+
+2024-03-16T11:30:00.000Z ALERT patient="P-33456" bed="ICU_BED_1" hr="134" bp_sys="74" bp_dia="44" map="54" spo2="84" resp="44" temp="39.5" etco2="10" alert="PRESSOR_INITIATED" intervention="NOREPINEPHRINE_0.1MCG"
+2024-03-16T11:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="68" bp_sys="124" bp_dia="80" map="95" spo2="99" resp="18" temp="37.0" etco2="38" news="2" trend="STABLE"
+2024-03-16T11:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="76" bp_sys="130" bp_dia="80" map="97" spo2="99" resp="16" temp="38.2" etco2="40" news="2" trend="STABLE"
+2024-03-16T11:30:00.000Z CODE patient="P-12905" bed="ICU_BED_4" hr="36" bp_sys="84" bp_dia="60" map="68" spo2="90" resp="2" temp="38.4" etco2="14" code="CODE_BLUE" rhythm="ASYSTOLE"
+
+2024-03-16T11:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="130" bp_sys="82" bp_dia="48" map="59" spo2="92" resp="18" temp="39.4" etco2="32" news="9" trend="VENTILATED"
+2024-03-16T11:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="72" bp_sys="126" bp_dia="82" map="97" spo2="99" resp="20" temp="37.1" etco2="40" news="2" trend="STABLE"
+2024-03-16T11:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="72" bp_sys="128" bp_dia="78" map="95" spo2="99" resp="18" temp="38.1" etco2="42" news="2" trend="STABLE"
+2024-03-16T11:45:00.000Z CODE patient="P-12905" bed="ICU_BED_4" hr="0" bp_sys="0" bp_dia="0" map="0" spo2="0" resp="0" temp="38.5" rhythm="V_FIB" intervention="DEFIB_200J"
+
+2024-03-16T12:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="126" bp_sys="86" bp_dia="50" map="62" spo2="94" resp="16" temp="39.3" etco2="34" news="8" trend="IMPROVING"
+2024-03-16T12:00:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="76" bp_sys="128" bp_dia="84" map="99" spo2="99" resp="22" temp="37.2" etco2="42" news="3" trend="STABLE"
+2024-03-16T12:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="68" bp_sys="126" bp_dia="76" map="93" spo2="99" resp="20" temp="38.0" etco2="44" news="2" trend="STABLE"
+2024-03-16T12:00:00.000Z CODE patient="P-12905" bed="ICU_BED_4" hr="120" bp_sys="110" bp_dia="70" map="83" spo2="96" resp="12" temp="38.6" rhythm="SINUS_TACH" outcome="ROSC_ACHIEVED"
+
+2024-03-16T12:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="122" bp_sys="90" bp_dia="52" map="65" spo2="95" resp="14" temp="39.2" etco2="36" news="7" trend="IMPROVING"
+2024-03-16T12:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="80" bp_sys="130" bp_dia="86" map="101" spo2="99" resp="24" temp="37.3" etco2="44" news="4" trend="STABLE"
+2024-03-16T12:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="64" bp_sys="124" bp_dia="74" map="91" spo2="99" resp="22" temp="37.9" etco2="46" news="2" trend="STABLE"
+2024-03-16T12:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="116" bp_sys="108" bp_dia="68" map="81" spo2="97" resp="10" temp="38.7" etco2="38" news="6" trend="POST_RESUSCITATION"
+
+2024-03-16T12:30:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="118" bp_sys="94" bp_dia="54" map="67" spo2="96" resp="12" temp="39.1" etco2="38" news="6" trend="IMPROVING"
+2024-03-16T12:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="84" bp_sys="132" bp_dia="88" map="103" spo2="99" resp="26" temp="37.4" etco2="46" news="5" trend="STABLE"
+2024-03-16T12:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="60" bp_sys="122" bp_dia="72" map="89" spo2="99" resp="24" temp="37.8" etco2="48" news="3" trend="STABLE"
+2024-03-16T12:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="112" bp_sys="112" bp_dia="70" map="84" spo2="98" resp="8" temp="38.8" etco2="40" news="5" trend="STABLE"
+
+2024-03-16T12:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="114" bp_sys="98" bp_dia="56" map="70" spo2="97" resp="10" temp="39.0" etco2="40" news="5" trend="IMPROVING"
+2024-03-16T12:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="88" bp_sys="134" bp_dia="90" map="105" spo2="98" resp="28" temp="37.5" etco2="48" news="6" trend="TACHYPNEIC"
+2024-03-16T12:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="56" bp_sys="120" bp_dia="70" map="87" spo2="99" resp="26" temp="37.7" etco2="50" news="4" trend="STABLE"
+2024-03-16T12:45:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="108" bp_sys="116" bp_dia="72" map="87" spo2="99" resp="6" temp="38.9" etco2="42" news="4" trend="STABLE"
+
+2024-03-16T13:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="110" bp_sys="102" bp_dia="58" map="73" spo2="98" resp="8" temp="38.9" etco2="42" news="4" trend="IMPROVING"
+2024-03-16T13:00:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="92" bp_sys="136" bp_dia="92" map="107" spo2="97" resp="30" temp="37.6" etco2="50" news="7" trend="DETERIORATING"
+2024-03-16T13:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="52" bp_sys="118" bp_dia="68" map="85" spo2="99" resp="28" temp="37.6" etco2="52" news="5" trend="BRADYCARDIC"
+2024-03-16T13:00:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="104" bp_sys="120" bp_dia="74" map="89" spo2="99" resp="4" temp="39.0" etco2="44" news="4" trend="STABLE"
+
+2024-03-16T13:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="108" bp_sys="104" bp_dia="60" map="75" spo2="98" resp="8" temp="38.8" etco2="40" news="4" trend="IMPROVING"
+2024-03-16T13:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="96" bp_sys="138" bp_dia="94" map="109" spo2="96" resp="32" temp="37.7" etco2="48" news="7" trend="DETERIORATING"
+2024-03-16T13:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="48" bp_sys="116" bp_dia="66" map="83" spo2="99" resp="30" temp="37.5" etco2="50" news="6" trend="BRADYCARDIC"
+2024-03-16T13:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="100" bp_sys="118" bp_dia="72" map="87" spo2="98" resp="6" temp="39.1" etco2="42" news="5" trend="STABLE"
+
+2024-03-16T13:30:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="106" bp_sys="106" bp_dia="62" map="77" spo2="99" resp="8" temp="38.7" etco2="38" news="3" trend="IMPROVING"
+2024-03-16T13:30:00.000Z ALERT patient="P-55671" bed="ICU_BED_2" hr="104" bp_sys="140" bp_dia="96" map="111" spo2="95" resp="34" temp="37.8" etco2="46" alert="RESPIRATORY_DISTRESS" intervention="NEBULIZER_ALBUTEROL"
+2024-03-16T13:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="44" bp_sys="114" bp_dia="64" map="81" spo2="99" resp="32" temp="37.4" etco2="48" news="7" trend="SEVERE_BRADYCARDIA"
+2024-03-16T13:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="96" bp_sys="116" bp_dia="70" map="85" spo2="97" resp="8" temp="39.2" etco2="40" news="6" trend="DETERIORATING"
+
+2024-03-16T13:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="104" bp_sys="108" bp_dia="64" map="79" spo2="99" resp="8" temp="38.6" etco2="36" news="3" trend="IMPROVING"
+2024-03-16T13:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="108" bp_sys="142" bp_dia="98" map="113" spo2="94" resp="36" temp="37.9" etco2="44" news="8" trend="CRITICAL_DOWN"
+2024-03-16T13:45:00.000Z ALERT patient="P-98234" bed="ICU_BED_3" hr="40" bp_sys="110" bp_dia="62" map="78" spo2="98" resp="34" temp="37.3" etco2="46" alert="BRADYCARDIA_WITH_TACHYPNEA" intervention="ATROPINE_0.5MG"
+2024-03-16T13:45:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="92" bp_sys="114" bp_dia="68" map="83" spo2="96" resp="10" temp="39.3" etco2="38" news="7" trend="DETERIORATING"
+
+2024-03-16T14:00:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="102" bp_sys="110" bp_dia="66" map="81" spo2="99" resp="8" temp="38.5" etco2="34" news="3" trend="IMPROVING"
+2024-03-16T14:00:00.000Z CRITICAL patient="P-55671" bed="ICU_BED_2" hr="112" bp_sys="144" bp_dia="100" map="115" spo2="92" resp="38" temp="38.0" etco2="42" alert="ACUTE_RESPIRATORY_FAILURE" intervention="BI_PAP_INITIATED"
+2024-03-16T14:00:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="52" bp_sys="118" bp_dia="68" map="85" spo2="99" resp="28" temp="37.2" etco2="42" news="5" trend="RESPONDING"
+2024-03-16T14:00:00.000Z ALERT patient="P-12905" bed="ICU_BED_4" hr="88" bp_sys="112" bp_dia="66" map="81" spo2="95" resp="12" temp="39.4" etco2="36" alert="FEVER_WITH_HYPOXEMIA" intervention="ACETAMINOPHEN_650MG"
+
+2024-03-16T14:15:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="100" bp_sys="112" bp_dia="68" map="83" spo2="99" resp="8" temp="38.4" etco2="32" news="2" trend="IMPROVING"
+2024-03-16T14:15:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="108" bp_sys="140" bp_dia="96" map="111" spo2="93" resp="34" temp="38.1" etco2="40" news="7" trend="RESPONDING"
+2024-03-16T14:15:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="56" bp_sys="120" bp_dia="70" map="87" spo2="99" resp="24" temp="37.1" etco2="40" news="4" trend="IMPROVING"
+2024-03-16T14:15:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="84" bp_sys="110" bp_dia="64" map="79" spo2="96" resp="14" temp="39.3" etco2="34" news="6" trend="RESPONDING"
+
+2024-03-16T14:30:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="98" bp_sys="114" bp_dia="70" map="85" spo2="99" resp="8" temp="38.3" etco2="30" news="2" trend="IMPROVING"
+2024-03-16T14:30:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="104" bp_sys="138" bp_dia="94" map="109" spo2="94" resp="30" temp="38.2" etco2="38" news="6" trend="IMPROVING"
+2024-03-16T14:30:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="60" bp_sys="122" bp_dia="72" map="89" spo2="99" resp="20" temp="37.0" etco2="38" news="3" trend="IMPROVING"
+2024-03-16T14:30:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="80" bp_sys="108" bp_dia="62" map="77" spo2="97" resp="16" temp="39.2" etco2="32" news="5" trend="IMPROVING"
+
+2024-03-16T14:45:00.000Z Vitals patient="P-33456" bed="ICU_BED_1" hr="96" bp_sys="116" bp_dia="72" map="87" spo2="99" resp="8" temp="38.2" etco2="28" news="2" trend="IMPROVING"
+2024-03-16T14:45:00.000Z Vitals patient="P-55671" bed="ICU_BED_2" hr="100" bp_sys="136" bp_dia="92" map="107" spo2="95" resp="26" temp="38.3" etco2="36" news="5" trend="IMPROVING"
+2024-03-16T14:45:00.000Z Vitals patient="P-98234" bed="ICU_BED_3" hr="64" bp_sys="124" bp_dia="74" map="91" spo2="99" resp="16" temp="36.9" etco2="36" news="2" trend="IMPROVING"
+2024-03-16T14:45:00.000Z Vitals patient="P-12905" bed="ICU_BED_4" hr="76" bp_sys="106" bp_dia="60" map="75" spo2="98" resp="18" temp="39.1" etco2="30" news="4" trend="IMPROVING"
