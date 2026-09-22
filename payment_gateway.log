@@ -1,0 +1,50 @@
+2026-09-22 09:00:05 INFO com.paynova.auth.service - Merchant authentication successful merchantId=78421
+2026-09-22 09:00:42 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10234 amount=1499.00
+2026-09-22 09:01:15 INFO com.paynova.kyc.service - KYC verification completed merchantId=78421
+2026-09-22 09:01:50 WARNING com.paynova.db.connectionpool - Connection pool usage at 76%
+2026-09-22 09:02:20 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=CARD_DECLINED
+2026-09-22 09:02:55 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10234
+2026-09-22 09:03:30 INFO com.paynova.webhook.service - Webhook delivered to merchant endpoint
+2026-09-22 09:04:05 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=INSUFFICIENT_FUNDS
+2026-09-22 09:04:40 INFO com.paynova.notification.service - SMS notification sent to customer
+2026-09-22 09:05:15 INFO com.paynova.fraud.service - Fraud check passed txnId=TXN10235
+2026-09-22 09:05:50 ERROR com.paynova.auth.service - Merchant authentication failed errorCode=OTP_MISMATCH
+2026-09-22 09:06:25 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10236 amount=2599.00
+2026-09-22 09:07:00 WARNING com.paynova.webhook.service - Webhook delivery delayed for merchantId=78421
+2026-09-22 09:07:35 INFO com.paynova.settlement.service - Settlement batch processed for 120 transactions
+2026-09-22 09:08:10 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=GATEWAY_TIMEOUT
+2026-09-22 09:08:45 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10236
+2026-09-22 09:09:20 INFO com.paynova.refund.service - Refund initiated for txnId=TXN10220
+2026-09-22 09:09:55 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=INVALID_CVV
+2026-09-22 09:10:30 INFO com.paynova.fraud.service - Fraud check passed txnId=TXN10237
+2026-09-22 09:11:05 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10238 amount=899.00
+2026-09-22 09:11:40 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=EXPIRED_CARD
+2026-09-22 09:12:15 WARNING com.paynova.db.connectionpool - Slow query detected on transactions table
+2026-09-22 09:12:50 INFO com.paynova.webhook.service - Webhook delivered to merchant endpoint
+2026-09-22 09:13:25 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=BANK_SERVER_DOWN
+2026-09-22 09:14:00 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10238
+2026-09-22 09:14:35 INFO com.paynova.notification.service - Email receipt sent to customer
+2026-09-22 09:15:10 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=LIMIT_EXCEEDED
+2026-09-22 09:15:45 INFO com.paynova.kyc.service - KYC verification completed merchantId=78422
+2026-09-22 09:16:20 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10239 amount=4599.00
+2026-09-22 09:16:55 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=CARD_DECLINED
+2026-09-22 09:17:30 INFO com.paynova.fraud.service - Fraud check passed txnId=TXN10239
+2026-09-22 09:18:05 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10239
+2026-09-22 09:18:40 WARNING com.paynova.webhook.service - Webhook retry attempt 2 for merchantId=78421
+2026-09-22 09:19:15 INFO com.paynova.settlement.service - Settlement batch processed for 145 transactions
+2026-09-22 09:19:50 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=INSUFFICIENT_FUNDS
+2026-09-22 09:20:25 INFO com.paynova.refund.service - Refund completed for txnId=TXN10220
+2026-09-22 09:21:00 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10240 amount=1299.00
+2026-09-22 09:21:35 ERROR com.paynova.auth.service - Merchant authentication failed errorCode=OTP_MISMATCH
+2026-09-22 09:22:10 INFO com.paynova.notification.service - SMS notification sent to customer
+2026-09-22 09:22:45 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10241 amount=3199.00
+2026-09-22 09:23:20 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=GATEWAY_TIMEOUT
+2026-09-22 09:23:55 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10241
+2026-09-22 09:24:30 WARNING com.paynova.db.connectionpool - Connection pool usage at 88%
+2026-09-22 09:25:05 INFO com.paynova.fraud.service - Fraud check passed txnId=TXN10242
+2026-09-22 09:25:40 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=CARD_DECLINED
+2026-09-22 09:26:15 INFO com.paynova.transaction.service - Payment initiated txnId=TXN10242 amount=799.00
+2026-09-22 09:26:50 INFO com.paynova.webhook.service - Webhook delivered to merchant endpoint
+2026-09-22 09:27:25 ERROR com.paynova.transaction.service - Payment transaction failed errorCode=INVALID_CVV
+2026-09-22 09:28:00 INFO com.paynova.ledger.service - Ledger entry recorded txnId=TXN10242
+2026-09-22 09:28:35 INFO com.paynova.settlement.service - Settlement batch closed for the day
