@@ -1,0 +1,50 @@
+2026-09-22 09:00:12 INFO com.cricket.live.service - Live match feed started for match ID 7841 (IND vs AUS)
+2026-09-22 09:01:05 INFO com.cricket.scorecard.service - Scorecard initialized for match ID 7841
+2026-09-22 09:02:47 INFO com.cricket.auth.service - User login successful userId=10234
+2026-09-22 09:03:15 INFO com.cricket.commentary.service - Ball-by-ball commentary stream connected
+2026-09-22 09:04:02 WARNING com.cricket.video.service - Video buffering detected for stream quality=720p
+2026-09-22 09:05:33 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=CARD_DECLINED
+2026-09-22 09:06:10 INFO com.cricket.stats.service - Player stats updated for playerId=305
+2026-09-22 09:07:44 INFO com.cricket.live.service - Score updated: IND 45/1 (8.2 overs)
+2026-09-22 09:08:20 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=INSUFFICIENT_FUNDS
+2026-09-22 09:09:58 INFO com.cricket.fantasy.service - Fantasy team saved userId=10567
+2026-09-22 09:11:12 INFO com.cricket.notification.service - Push notification sent for wicket update
+2026-09-22 09:12:30 WARNING com.cricket.db.connectionpool - Connection pool usage at 82%
+2026-09-22 09:13:47 INFO com.cricket.live.service - Score updated: IND 62/2 (10.5 overs)
+2026-09-22 09:14:59 ERROR com.cricket.auth.service - Login failed errorCode=INVALID_OTP
+2026-09-22 09:16:21 INFO com.cricket.commentary.service - Commentary updated: Six! IND 68/2
+2026-09-22 09:17:40 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=SESSION_EXPIRED
+2026-09-22 09:18:55 INFO com.cricket.scorecard.service - Scorecard refreshed for match ID 7841
+2026-09-22 09:20:10 INFO com.cricket.video.service - Stream quality switched to 1080p
+2026-09-22 09:21:33 WARNING com.cricket.notification.service - Notification delivery delayed for 200 users
+2026-09-22 09:22:48 INFO com.cricket.live.service - Score updated: IND 75/2 (13.1 overs)
+2026-09-22 09:24:02 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=GATEWAY_TIMEOUT
+2026-09-22 09:25:19 INFO com.cricket.fantasy.service - Fantasy points recalculated for contest ID 992
+2026-09-22 09:26:44 INFO com.cricket.stats.service - Bowling stats updated for playerId=118
+2026-09-22 09:28:00 ERROR com.cricket.db.connectionpool - Database connection refused, retrying
+2026-09-22 09:29:17 INFO com.cricket.live.service - Score updated: IND 91/3 (15.4 overs)
+2026-09-22 09:30:35 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=CARD_DECLINED
+2026-09-22 09:31:52 INFO com.cricket.commentary.service - Commentary updated: Wicket! IND 91/3
+2026-09-22 09:33:10 INFO com.cricket.auth.service - User login successful userId=10298
+2026-09-22 09:34:27 WARNING com.cricket.video.service - High latency detected in video stream
+2026-09-22 09:35:44 INFO com.cricket.live.service - Score updated: IND 104/3 (17.6 overs)
+2026-09-22 09:37:02 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=SEAT_UNAVAILABLE
+2026-09-22 09:38:19 INFO com.cricket.notification.service - Push notification sent for boundary update
+2026-09-22 09:39:36 INFO com.cricket.scorecard.service - Scorecard refreshed for match ID 7841
+2026-09-22 09:41:00 ERROR com.cricket.auth.service - Login failed errorCode=SESSION_EXPIRED
+2026-09-22 09:42:18 INFO com.cricket.live.service - Score updated: IND 118/3 (19.3 overs)
+2026-09-22 09:43:35 INFO com.cricket.fantasy.service - Fantasy team locked for match ID 7841
+2026-09-22 09:45:00 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=INSUFFICIENT_FUNDS
+2026-09-22 09:46:22 INFO com.cricket.stats.service - Match stats snapshot saved
+2026-09-22 09:47:40 WARNING com.cricket.db.connectionpool - Slow query detected on stats table
+2026-09-22 09:49:05 INFO com.cricket.live.service - Score updated: IND 132/4 (21.5 overs)
+2026-09-22 09:50:23 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=CARD_DECLINED
+2026-09-22 09:51:44 INFO com.cricket.commentary.service - Commentary updated: Four! IND 136/4
+2026-09-22 09:53:00 INFO com.cricket.video.service - Stream reconnected after brief drop
+2026-09-22 09:54:19 ERROR com.cricket.auth.service - Login failed errorCode=INVALID_OTP
+2026-09-22 09:55:37 INFO com.cricket.live.service - Score updated: IND 145/4 (23.6 overs)
+2026-09-22 09:57:00 INFO com.cricket.notification.service - Match summary email queued
+2026-09-22 09:58:22 ERROR com.cricket.payment.service - Ticket purchase failed errorCode=GATEWAY_TIMEOUT
+2026-09-22 09:59:41 INFO com.cricket.fantasy.service - Leaderboard updated for contest ID 992
+2026-09-22 10:01:00 INFO com.cricket.scorecard.service - Final scorecard saved for match ID 7841
+2026-09-22 10:02:18 INFO com.cricket.live.service - Match ended: IND 158/5 (25.0 overs)
